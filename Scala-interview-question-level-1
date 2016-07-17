@@ -1,0 +1,116 @@
+-What is Scala? 
+Scala stands for SCAlable LAnguage
+
+-Who is the father of Scala ?
+ Martin Odersky is the father of Scala and he released the first version in 2003. 
+
+-Is it a Language or Platform?
+Language
+
+-Does it support OOP or FP?
+Both
+
+-What is OO language? Why scala is fully OO language but java doesn't ?
+Object oriented language means everything should be object.
+Yes Scala is fully object-oriented language because in scala everything is an Object and everything is a value. Functions are values 
+and values are Objects. 
+No Java is not fully OO because java supports following - 1] Primitive data types(Which is not an Object)
+2] Static members (which is not object)
+Scala doesn't have primitive datatype and static concept too.
+
+- what is functional programming? Does Scala/java suports all functional programming concepts?
+ Constructing programs using only pure functions is called functional programming. Yes scala supports all functional programming
+ concepts. Java8 has introduced few functional programming constructs like - Lambda Expressions, Functions, Type Inference, Higher-Order Functions. But it doesnot supports all functional programming concepts 
+ like- Pattern Matching, Function Currying, Implicits etc.
+ 
+- What is pure function ?
+Functions has no side effects is called pure function.
+
+- Which is not pure function ?
+A function has a side effect if it does something other than simply return a result for example-
+1 Modifying a variable 2 Modifying a data structure in place 3 Setting a field on an object 4 Throwing an exception or halting with an
+error 5 Printing to the console or reading user input 6 Reading from or writing to a file 7 Drawing on the screen etc.
+
+-What are most important features of scala ?
+ Scala is a multiparadigm language supporting both object-oriented and functional programming.
+ Scala runs on the JVM
+ 
+- Is Scala Statically-Typed Language? What is the difference between statically typed and dynamically typed languages?
+Yes, Scala is a Statically-Typed Language.
+Statically-Typed Language means that Type checking is done at compile-time by compiler, not at run-time. The main Advantage of these
+kinds of Languages is: As a Developer, we should care about writing right code to avoid all compile-time errors. As Compiler checks 
+many of the errors at compile-time, we don’t get much issues or bugs at run-time.
+Examples:- Java, Scala, C, C++, Haskell etc.
+Dynamically-Typed Language means that Type checking is done at run-time, not at compile-time by compiler. As a compiler won’t check 
+any type checking at compile-time, We can expect more run-time issues or bugs.
+Example:- Groovy, JavaScript, Ruby, Python, Smalltalk etc.
+
+- Java's and Scala's programming languages quote
+Java - Write once read anyware 
+Scala - Same as Java + "Do more with less code"(DMWLC) means we can develop more complex program or logic with less code.
+
+- What are the advantages of Scala Language?
+Advantages of Scala Language:-
+Simple and Concise Code
+Very Expressive Code
+More Readable Code
+100% Type-Safe Language
+Immutability and No Side-Effects
+More Reusable Code
+More Modularity
+Do More With Less Code
+Very Flexible Syntax
+Supports all OOP Features
+Supports all FP Features. Highly Functional.
+Less Error Prone Code
+Better Parallel and Concurrency Programming
+Highly Scalable and Maintainable code
+Highly Productivity
+Distributed Applications
+Full Java Interoperability
+Powerful Scala DSLs available
+REPL to learn Scala Basics
+
+ -What are the drawbacks of Scala Language?
+Less Readable Code
+Bit tough to Understand the Code for beginners
+Complex Syntax to learn
+Less Backward Compatibility
+backward compatibility issue- 
+If we want to upgrade to latest version of Scala, then we need to take care of changing some package names, class names, method or 
+function names
+For instance, If you are using old Scala version and your project is using BeanProperty annotation. It was available in “scala
+.reflect” like “scala.reflect.BeanProperty” in old versions. If we want to upgrade to new Scala versions, then we need to change this 
+package from “scala.reflect” to “scala.beans”.
+
+- Which platform is required to run Scala ?
+Java vertual machine.
+
+- Like Java’s java.lang.Object class, what is the super class of all classes in Scala?
+As we know in Java, the super class of all classes (Java API Classes or User Defined Classes) is java.lang.Object. In the same way in 
+Scala, the super class of all classes or traits is “Any” class. Any class is defined in scala package like “scala.Any”.
+
+- What is default access modifier in Scala? Does Scala have “public” keyword?
+Public is the default access modifier for method, function, trait, object or class , fields etc.
+
+What is “Type Inference” in Scala?
+determining the type of a variable or expression or object etc at compile-time by compiler is known as “Type Inference”.
+Types means Data type or Result type. We use Types at many places in Scala programs like Variable types, Object types, Method
+Function Parameter types, Method/Function return types etc.
+
+- What are the similarities and differences between Scala’s Int and Java’s java.lang.Integer? What is the relationship between Int and RichInt in Scala?
+
+Similarities between Scala’s Int and Java’s java.lang.Integer:
+Both are classes.
+Both are used to represent integer numbers.
+Both are 32-bit signed integers.
+
+Differences between Scala’s Int and Java’s java.lang.Integer:
+Scala’s Int class does not implement Comparable interface.
+Java’s java.lang.Integer class implements Comparable interface.
+Java’s Integer is something similar to Scala’s Int and RichInt. RichInt is a final class defined in scala.runtime package like “scala.runtime.RichInt”.
+
+In Scala, the Relationship between Int and RichInt is that when we use Int in a Scala program, it will automatically convert into RichInt to utilize all methods available in that Class. We can say that RichInt is an Implicit class of Int. (We will discuss “What is Implicit and the advantages of Implicits in my next post).
+===========================================================Written by me ==================================================
+- What is Nothing in Scala? What is Nil in Scala? What is the relationship between Nothing and Nil in Scala?
+please wait... Posts are comming soon 
