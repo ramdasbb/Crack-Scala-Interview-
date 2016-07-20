@@ -1,0 +1,35 @@
+To learn scala refer following links 
+- http://docs.scala-lang.org/tutorials/ 
+
+- What is parallelism and concarancy ?
+Concurrency is concerned with managing access to shared state from different threads, whereas 
+parallelism is concerned with utilizing multiple processors/cores to improve the performance of a computation
+
+
+- What is functor and monad ?
+- What is tail recurssion ?
+- What is Akka actor model 
+- How it resolve blocking concept
+
+immutabillity, 
+concurrency(Parallelisms), Functional Programming,
+Pure function, var, val, traits, object, case, def, 
+referential transparency
+substitution model 
+mixins 
+collection in scala
+currying 
+Statically typed 
+Type inference
+regular expression 
+Function 
+Class
+Object 
+Implicits
+traint
+companion object 
+case classes
+How scala is fully OO language 
+muliple inheritance
+
+Of course, english is not my first language so i'm sorry in advance for the misspellings and such.
